@@ -1,0 +1,256 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <meta name="theme-color" content="#fafafa">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="../owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="../owlcarousel/owl.theme.default.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat|Open+Sans|Titillium+Web&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+  <div class="app">
+    <div class="navWrap">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/store/"><img src="/store/img/sqfull.png" class="logoPic"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/store/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/store/shop/">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/store/about/">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/store/contact/">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="myAccount">
+                <button data-toggle="modal" data-target="#accountModal"><i class="fas fa-user"></i>My Account</button><button data-toggle="modal" data-target="#myModal2"><i class="fas fa-shopping-cart" aria-hidden="true"></i>My Cart</button>
+            </div>
+        </nav>
+        <div class="lowerNav">
+            <div class="categories">
+                <button class="shopCat" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <a class="dropdown-item" href="/store/shop/shoes">Shoes</a>
+                    <a class="dropdown-item" href="/store/shop/hats">Hats</a>
+                    <a class="dropdown-item" href="/store/shop/comingSoon">Watches</a>
+                    <a class="dropdown-item" href="/store/shop/comingSoon">Accessories</a>
+                </div>
+                <div class="catWrap">
+                    <div class="topCat">
+                        <h5>Shop By</h5>
+                    </div>
+                    <div class="botCat">
+                        <h5>Category</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="searchContain">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0 btnSearch">Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Account Login Modal -->
+    <div class="modal" id="accountModal" tabindex="-1" role="dialog" aria-labelledby="accountModalLabel" aria-hidden="true">
+        <div class="container mt-5">
+            <div class="d-flex justify-content-center h-100">
+                <div id="formContent">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                    <div class="first">
+                        <h1 class="my-5">Account Login</h1>
+                    </div>
+                    <!-- Login Form -->
+                    <form>
+                        <input type="email" id="email" class="second zero-raduis" name="email" placeholder="email">
+                        <input type="text" id="password" class="third zero-raduis" name="login" placeholder="password">
+                        <div id="formFooter">
+                            <a class="pwReset">Forgot Password?</a>
+                        </div>
+                        <input id="login" type="submit" class="fourth zero-raduis" value="login">
+                        <h2>Don't have a account?</h2>
+                        <input id="login2" type="button" class="fourth zero-raduis pc" value="register">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Account Login Modal -->
+    <div id="main">
+        <div class="container">
+            <div class="aboutText">
+                <h2>About Us</h2>
+                <div class="aboutBox">
+                    <p>Lorem ipsum dolor sit amet, laoreet verterem urbanitas pri an. An his semper disputando, possit graecis conclusionemque in pro. Id inermis consetetur eum. Amet indoctum efficiantur eos ea, nam postea docendi argumentum at. Semper quaeque voluptatibus ne sea.</p>
+                    <p>Eu eius tamquam voluptatum usu, in sanctus qualisque persecuti mea. Choro possit ponderum ius cu, te ridens gloriatur tincidunt vix, hinc malis inermis mea eu. Eum no paulo omnes, libris tibique conceptam cum ex. Eum dictas expetenda inciderint ut, ex pericula deseruisse pro. Audiam eligendi mea et, duo elit periculis persequeris ad, ius nibh semper moderatius cu. Ea pri iisque deseruisse, usu ut quas malorum.</p>
+                    <div class="awardBox">
+                        <div class="awardImg">
+                            <img src="../img/award2.png">
+                        </div>
+                        <div class="awardImg">
+                            <img src="../img/award1.png">
+                        </div>
+                        <div class="awardImg">
+                            <img src="../img/award3.png">
+                        </div>
+                    </div>
+                    <img src="../img/team.jpg" class="teamPhoto">
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footerContent row">
+                <div class="col-md-7 row leftSplit">
+                    <div class="col-md-4">
+                        <ul>
+                            <h5>Policy</h5>
+                            <li>Contact Us</li>
+                            <li>Sitemap</li>
+                            <li>Stores</li>
+                            <li>Login</li>
+                            <li>My Account</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul>
+                            <h5>Products</h5>
+                            <li>Price Drops</li>
+                            <li>New Products</li>
+                            <li>Top Sellers</li>
+                            <li>Sitemap</li>
+                            <li>Stores</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul>
+                            <h5>Our Company</h5>
+                            <li>Delivery</li>
+                            <li>Legal</li>
+                            <li>Contact Us</li>
+                            <li>Sitemap</li>
+                            <li>Stores</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-5 row rightSplit">
+                    <div class="col-md-6 col-sm-6 col-6">
+                        <ul>
+                            <h5>Address</h5>
+                            <li><b>Demo Store</b><br>42 False Blvd.<br>Fake, USA</li>
+                            <br>
+                            <li>800-123-4567</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-6">
+                        <ul class="contactUs">
+                            <h5>Contact Us</h5>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="footerContent2">
+                <ul>
+                    <li><a href="/store/">Home</a></li>
+                    <li><a href="/store/shop/">Shop</a></li>
+                    <li><a href="/store/about/">About</a></li>
+                    <li><a href="/store/contact/">Contact</a></li>
+                </ul>
+                <br>
+                <img src="https://i.ya-webdesign.com/images/paypal-credit-card-logo-png-8.png" class="cardsAccepted" width="250px">
+                <br>
+                <br>
+                <a href="">© 2020 - Built & Maintained by Nfinite Sites</a>
+            </div>
+        </div>
+        <div class="container demo">
+            <!-- Shopping Cart Modal -->
+            <div class="modal right fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel2">My Shopping Cart</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Edit or remove items from your cart below:</p>
+                            <div class="cartBox">
+                            </div>
+                            <div class="cartTotals">
+                                <p>Items in cart: <span class="total-items">0</span></p>
+                                <hr>
+                                <div class="shipEstimate">
+                                    <h4>Select Shipping Method:</h4>
+                                    <div class="stShip">
+                                        <label for="standard" id="standardS">$5.00<br>Standard<br>(5-7 business days)</label>
+                                        <input type="radio" name="shippingMethod" value="5" id="standard">
+                                    </div>
+                                    <div class="exShip">
+                                        <label for="expedited" id="expeditedS">$15.00<br>Expedited<br>(1-2 business days)</label>
+                                        <input type="radio" name="shippingMethod" value="15" id="expedited">
+                                    </div>
+                                </div>
+                                <div class="calcTot">
+                                    <button class="estimateBTN">Calculate Total</button>
+                                    <h3>Total: $<span class="total-cost"></span></h3>
+                                </div>
+                            </div>
+                            <div class="checkout">
+                                <button class="p2c">Proceed To Chekout</button>
+                            </div>
+                        </div>
+                    </div><!-- modal-content -->
+                </div><!-- modal-dialog -->
+            </div><!-- Shopping Cart Modal -->
+        </div><!-- container -->
+    </div> <!-- end #main -->
+</div> <!-- end .app -->
+
+
+
+
+  <!-- SCRIPTS -->
+  <script src="../js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="../js/plugins.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.6/holder.min.js"></script>
+  <script src="https://kit.fontawesome.com/a70488ef5a.js" crossorigin="anonymous"></script>
+  <script src="../owlcarousel/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(".owl-carousel").owlCarousel();
+    });
+  </script>
+  <script src="../js/owlSlides.js"></script>
+  <!-- END SCRIPTS -->
+</body>
+
+</html>
