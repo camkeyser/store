@@ -28,34 +28,47 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
+                        <a class="nav-link" href="/store/">Home</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="/store/shop/">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/store/">Specials</a>
+                        <a class="nav-link" href="/store/about/">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/store/">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/store/">Contact</a>
+                        <a class="nav-link" href="/store/contact/">Contact</a>
                     </li>
                 </ul>
             </div>
             <div class="myAccount">
-                <a href=""><i class="fas fa-user"></i>My Account</a><a href=""><i class="fas fa-shopping-cart" aria-hidden="true"></i>My Cart</a>
+                <button data-toggle="modal" data-target="#accountModal"><i class="fas fa-user"></i>My Account</button><button data-toggle="modal" data-target="#myModal2"><i class="fas fa-shopping-cart" aria-hidden="true"></i>My Cart</button>
             </div>
         </nav>
         <div class="lowerNav">
             <div class="categories">
-                <a class="catLink" href=""><i class="fas fa-bars"></i>
-                    <div>Shop By</div>
-                    <div>Category</div>
-                </a>
+                <button class="shopCat" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <a class="dropdown-item" href="/store/shop/shoes">Shoes</a>
+                    <a class="dropdown-item" href="/store/shop/hats">Hats</a>
+                    <a class="dropdown-item" href="/store/shop/comingSoon">Watches</a>
+                    <a class="dropdown-item" href="/store/shop/comingSoon">Accessories</a>
+                </div>
+                <div class="catWrap">
+                    <div class="topCat">
+                        <h5>Shop By</h5>
+                    </div>
+                    <div class="botCat">
+                        <h5>Category</h5>
+                    </div>
+                </div>
             </div>
             <div class="searchContain">
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <button class="btn btn-outline-success my-2 my-sm-0 btnSearch">Search</button>
                 </form>
             </div>
         </div>
