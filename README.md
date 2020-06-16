@@ -1,2 +1,2 @@
 # shop
-Fake E-Commerce Site
+Demo E-Commerce Site
